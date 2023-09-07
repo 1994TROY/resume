@@ -28,7 +28,6 @@ header h1 {
 
 /* Nav Bar Background colour */
 aside {
-    flex: 1;
     padding: 20px;
     background-color: #333;
 }
@@ -43,7 +42,6 @@ aside {
 /* Styling for the navigation links of my page */
 nav ul {
     list-style-type: none;
-    display: flex;                                      /* Use flexbox to get my links horizontaly aligned */
     justify-content: center;                            /* Center the nav links horizontally */
     align-items: center;
     padding: 0;                                         /* Remove any default padding */
@@ -63,7 +61,6 @@ nav ul li a {
 
 /* Styling for the article (right) section */
 article {
-    flex: 2;
     padding: 20px;
 }
 
