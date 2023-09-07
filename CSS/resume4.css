@@ -9,7 +9,7 @@ header {
     padding: 20px;
     text-align: center;
 }
-
+/* edits for my Title and subtitle headings */
 .header_p {
     color: #333;
 }
@@ -42,26 +42,13 @@ aside {
 /* Styling for the navigation links of my page */
 nav ul {
     list-style-type: none;
-    justify-content: center;                            /* Center the nav links horizontally */
-    align-items: center;
-    padding: 0;                                         /* Remove any default padding */
-}
-
-nav ul li {
-    margin-right: 20px;                                 /* Add space between the links */
 }
 
 /* Style for the navigation link text (default color is blue)*/
 nav ul li a {
-    text-decoration: none;
     color: #f2f2f2; 
     font-size: 16px; 
     font-weight: bold; 
-}
-
-/* Styling for the article (right) section */
-article {
-    padding: 20px;
 }
 
 /* Styling for section headings */
@@ -70,7 +57,6 @@ h2 {
     font-weight: bold;
     color: #f2f2f2; 
     background-color: #333;
-    text-align: center;
 }
 
 /* Styling for subheadings */
@@ -78,38 +64,30 @@ h3 {
     font-size: 18px;
     font-weight: bold;
     color: #666; 
-    text-align: center;
 }
 
 /* Styling for paragraphs */
 p {
     font-size: 16px;
     color: #000000; 
-    line-height: 1.5;
-    text-align: center;
 }
-
 
 footer {
     background-color: #333; /* Dark background color */
     color: #fff; 
-    text-align: center;
-    padding: 20px;
 }
 
 /* Styling for links in the footer */
 footer a {
-    text-decoration: none;
     color: #fff;                                        /* White text color for links */
 }
 
+
+/* Styling for my Contact header as it is the intro to my Footer */
 .contact {
-    text-align: center;
     color: #333;
     background-color: #fff;
     padding: auto;
 }
 
-.job_response {
-    text-align: left;
-}
+
