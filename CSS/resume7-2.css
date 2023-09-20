@@ -1,0 +1,192 @@
+/* Set a different font family for the entire webpage */
+body {
+    font-family: serif;
+    margin: 0; 
+    padding: 0;
+    background-color:#f2f2f2;;
+}
+
+/* Styling for the header */
+header {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style for Title and subtitle headings */
+.header_p, .header_name {
+    color: #f2f2f2;
+}
+
+/* Styling for the "CodeSpace" link & giving it a Hover effect*/
+a[href="https://www.codespace.co.za/"] {
+    color: #333; 
+}
+
+a[href="https://www.codespace.co.za/"]:hover {
+    color: #AFD0FF; 
+}
+
+/* Styling for the h1 in the header */
+.header_name {
+    font-size: 36px;
+    font-weight: bold;
+    color: #f2f2f2;
+}
+
+/* Styling for the h1 in the header */
+header h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #f2f2f2;
+
+}
+
+/* Nav Bar Background color */
+aside {
+    padding: 20px;
+    background-color: #f2f2f2;
+    margin: 0; 
+}
+
+/* Styling for your CV image */
+.cv_img img {
+    max-width: 992px; 
+    height: 180px; 
+    margin: 0 auto; 
+}
+
+/* Styling for the navigation menu */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center; 
+}
+
+nav ul li {
+    display: inline-block;                          /* Display menu items horizontally */
+    margin-right: 10px;                             /* Add spacing between menu items */
+}
+
+/* Styling for the navigation link text */
+nav ul li a {
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none; /* Remove underlines from links */
+    padding: 5px 10px; /* Add padding to the menu items */
+}
+
+/* Hover effect for navigation links */
+nav ul li a:hover {
+ color: #AFD0FF; /* Change background color on hover */
+}
+
+/* Styling for section headings */
+h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #f2f2f2; 
+    background-color: #333;
+    text-align: center;
+}
+
+/* Styling for subheadings */
+h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #666; 
+    padding-left: 50px;
+}
+
+/* Styling for paragraphs */
+p {
+    font-size: 16px;
+    color: #000000; 
+    padding-left: 50px;
+}
+
+footer {
+    background-color: #333; /* Dark background color */
+    color: #fff; 
+}
+
+/* Styling for links in the footer */
+footer a {
+    color: #fff;                                        /* White text color for links */
+}
+
+
+/* Styling for my Contact header as it is the intro to my Footer */
+.contact {
+    color: #333;
+    background-color: #fff;
+    padding: auto;
+    text-align: center;
+}
+
+
+a[href="https://www.linkedin.com/"] {
+    color: #f8f8f8;
+    padding-right: 40px;
+}
+
+a[href="https://www.linkedin.com/"]:hover {
+    color: #0960da;
+}
+
+
+                        /* Styling for the contact form */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    max-width: 600px; 
+    margin: 0 auto; 
+}
+
+.subject-options {
+    display: flex; /* This will make them sit next to each other */
+    justify-content: center;
+    gap: 20px; /* Spacing between each option */
+}
+
+/* Style for the input and textarea elements */
+form input[type="email"], form textarea, form input[type="text"] {
+    width: 100%; /* Full width */
+    padding: 10px;
+    margin-top: 10px; /* Spacing on top for separation */
+    border-radius: 10px; /* Rounded corners */
+    box-sizing: border-box; /* Ensure padding and border are included in width */
+}
+
+/* Placeholder styles */
+form input::placeholder, form textarea::placeholder {
+    color: #aaa;
+    font-style: italic;
+}
+
+/* Style for the radio button options */
+form input[type="radio"] {
+    margin-right: 5px; /* Spacing between the radio button and its label */
+}
+
+/* Style for the Send button */
+form button {
+    margin-top: 20px; /* Space above the Send button */
+    padding: 10px 20px; /* Padding around the button text */
+    border-radius: 10px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Hover effect for the Send button */
+form button:hover {
+    background-color: #AFD0FF;
+    color: #333;
+}
+
+
+.subject-options {
+    padding-bottom: 20px;
+}
